@@ -396,6 +396,7 @@ ul {
 
 .about-content .about-box-text {
   background-color: rgba(207, 103, 102, 1);
+  
   padding: 30px;
   margin-top: 60px;
 }
@@ -611,7 +612,7 @@ ul {
 ========================================
 */
 
-@media (max-width: 768px){
+@media (min-width: 768px) and (max-width:1024px){
   .heading h4 {
     font-size: 22px;
     margin-bottom: 30px;
@@ -657,7 +658,7 @@ ul {
     margin-left: 0px;
     margin-right: 0px;
   }
-  .about-box-text {
+  .about-box-text { 
     margin-bottom: 30px;
   }
   .about-box-content img {
@@ -712,8 +713,253 @@ ul {
   .contact-content .heading {
     padding-top: 15%;
   }
+ 
 }
 
+@media (min-width:300px)and (max-width:767px){
+  .heading h4 {
+    font-size: 22px;
+    
+    margin-bottom: 30px;
+  }
+  .more-info p{
+    font-size: medium;
+  }
+  .home-content {
+    text-align: center;
+    margin: 0 auto;
+    height: auto;
+    padding: 0px 30px;
+    width: 100vw;
+  }
+  .home-content .home-box-content {
+    right: 0;
+    margin-bottom: 30px;
+  }
+  .home-content h1 {
+    margin-bottom: 0px;
+    padding-top: 60px;
+    font-size: 22px;
+  }
+  .home-content h1 em {
+    font-size: 36px;
+  }
+  .home-content .left-text {     
+    float: none;     
+    width: auto; 
+  }
+  .home-content .right-image {
+    text-align: center;
+    float: none; 
+    
+  }
+  .home-box-content .right-image{
+    width: auto; 
+    margin-bottom: 30px;
+  }
+  .about-content {
+    position: relative;
+    height: auto;
+    width: auto;
+    max-width: 500px;
+    margin: 5px;
+  }
+  .about-content .heading {
+    padding-top: 10%;
+  }
+  
+  .about-box-text { 
+    
+    margin-bottom: 30px;
+    height: auto;
+    width: auto;
+    
+  }
+  
+  .about-box-content img {
+    position: relative;
+    width: auto;
+    
+  }
+  .about-content .about-box-text {
+    background-color: #fa5252;
+    padding: 30px;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+  
+  }
+  .about-content .about-box-text p {
+    font-size: medium;
+    width: auto;
+    
+  }
+  .projects-content {
+    width: 100vh;
+    height: 100vh;
+    padding: 0px 30px;
+  }
+  .project-item  {
+    padding: 0px 120px;
+  }
+  .project-item img {
+    max-width: 100%;
+  }
+  .projects-content .heading {
+    padding-top: 25%;
+  }
+  .projects-content .owl-carousel {
+    margin: 0;
+    width: 100%;
+  }
+  .projects-content .text-content {
+    display: none;
+  }
+  .contact-content .more-info {
+    padding: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    margin-bottom: 60px;
+  }
+  .contact-content .contat-form {
+    background-color: rgba(250, 250, 250, 0.03);
+    padding: 20px;
+    margin-right: 0px;
+  }
+  .contact-content {
+    height: auto;
+    width: 100vw;
+    padding: 0px 30px;
+  }
+  .contact-content .heading {
+    padding-top: 15%;
+  }
+  .contact-content .heading h4 {
+    font-size: 35px;
+  }
+  .more-info p  {
+    font-size: medium;
+    text-align: center;
+  }
+  .more-info .primary-button{
+    padding: 70px 0;    
+    text-align: center;
+  }
+}
+
+@media (min-width:1024px)and (max-width: 2066px){
+  .heading h4 {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  .home-content {
+    position: relative;
+    height: auto;
+    
+  }
+  .home-content .home-box-content {
+    right: 0;
+    margin-bottom: 30px;
+  }
+  .home-content h1 {
+    margin-bottom: 0px;
+    padding-top: 60px;
+    font-size: 22px;
+  }
+  .home-content h1 em {
+    font-size: 36px;
+  }
+  .home-content .left-text {     
+    float: none;     
+    width: auto; 
+  }
+  .home-content .right-image {
+    text-align: center;
+    float: none;
+    margin-top: 15px;
+    
+  }
+  .home-box-content .right-image{
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+  .about-content {
+    position: relative;
+    height: auto;
+  }
+  .about-content .heading {
+    padding-top: 10%;
+  }
+  .about-box-content {
+    position: relative;
+  }
+  .about-box-text { 
+    margin-bottom: 30px;
+  }
+  .about-box-content img {
+    position: relative;
+    margin-left: 100px;
+  }
+  .about-content .about-box-text {
+    background-color: rgba(207, 103, 102, 1);;
+    padding: 30px;
+    margin-top: -5px;
+    margin-left: -75px;
+    margin-right: 25px;
+  }
+  .about-content .about-box-text p{
+    font-size: large;
+  }
+  .about-content .about-box-text h4{
+    font-size: x-large;
+  }
+  .projects-content {
+    width:  auto;
+    height: auto;
+    padding: 0px 30px;
+  }
+  .project-item  {
+    padding: 0px 120px;
+  }
+  .project-item img {
+    max-width: 100%;
+  }
+  .projects-content .heading {
+    padding-top: 25%;
+  }
+  .projects-content .owl-carousel {
+    margin: 0;
+    width: 100%;
+  }
+  .projects-content .text-content {
+    display: none;
+  }
+  .contact-content .more-info {
+    padding: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    margin-bottom: 60px;
+  }
+  .contact-content .contat-form {
+    background-color: rgba(250, 250, 250, 0.03);
+    padding: 20px;
+    margin-right: 0px;
+  }
+  .contact-content {
+    height: auto;
+    width: 100vw;
+    padding: 0px 30px;
+  }
+  .contact-content .heading {
+    padding-top: 15%;
+  }
+ 
+}
 
 
 
