@@ -347,14 +347,20 @@ ul {
 	color: #fa5252;
 	font-style: normal;
 }
-
+.left-text p{
+  font-size: 20px;
+}
 .home-content .left-text p {
 	color: #fff;
-	margin-bottom: 25px;
+  margin-bottom: 25px;
+  
 }
 
 .home-content .right-image {
-	float: right;
+  float: right;
+  width: 137px;
+  height: 137px;
+  
 }
 
 
