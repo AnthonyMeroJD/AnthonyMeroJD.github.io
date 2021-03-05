@@ -179,6 +179,7 @@ p {
 }
 
 .tm-site-name {
+  margin-left: 15%;
   font-size: 3.5rem;
   font-weight: 600;
 }
@@ -617,7 +618,7 @@ hr {
 }
 
 @media (max-width: 1200px) {
-  
+ 
   .tm-section-text-container{
     background-color: #cdc9c3;
   }
@@ -723,6 +724,8 @@ hr {
 }
 
 @media (max-width: 767px) {
+
+
   .columns-bg {
     background-image: linear-gradient(
       to right,
@@ -981,3 +984,86 @@ hr {
     height: 600px;
   }
 }
+.animacionLeter {
+	
+	display: flex;
+	width: 500px;
+	height: 40px;
+	color: rgb(0, 0, 0);
+	font-size: 30px;
+	line-height: 40px;	
+  position: relative;
+  margin-top: 0%;
+  margin-left: 10%;
+  margin-right: 5%;
+	top: 0;
+	right: 0;
+  bottom: 0;
+  	left: 0;
+
+	overflow: hidden;
+	
+}
+
+.animacionLeter  ul {
+	list-style: none;
+  padding-left: 10px;
+  color: #93329e;
+	animation: cambiar 7s infinite;
+}
+
+.animacionLeter  ul, p {
+	margin: 0;
+}
+
+@keyframes cambiar {
+	
+	0%{ margin-top: 0;}
+	20%{ margin-top: 0;}
+	
+	25% {margin-top: -40px;}
+	50% {margin-top: -40px;}
+	
+	55% {margin-top: -80px;}
+	80% {margin-top: -80px;}
+	
+	85% {margin-top: -40px;}
+	95% {margin-top: -40px;}
+	
+	100% {margin-top: 0;}
+}
+
+.textanime {
+  width: 70%;
+}
+
+
+
+.textanime h1  {
+  
+  color: #555555;
+  font-size: 30px;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(255, 255, 255); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 2 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .20em; /* Adjust as needed */
+  animation: 
+    typing 4s steps(50, end),
+    blink-caret .5s step-end infinite;
+    
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(20, 20, 20) }
+}
+
