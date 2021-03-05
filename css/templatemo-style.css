@@ -230,6 +230,7 @@ p {
 }
 
 .tm-section-title-mb {
+  color: #000000;
   margin-bottom: 30px;
 }
 
@@ -612,9 +613,14 @@ hr {
   .container {
     max-width: 1280px;
   }
+  
 }
 
 @media (max-width: 1200px) {
+  
+  .tm-section-text-container{
+    background-color: #cdc9c3;
+  }
   .tm-section-title-underline {
     max-width: 350px;
   }
@@ -718,8 +724,14 @@ hr {
 
 @media (max-width: 767px) {
   .columns-bg {
-    background-image: none;
+    background-image: linear-gradient(
+      to right,
+      #555555,
+      #555555 50%,
+      #d9e4dd 50%
+    );
   }
+
 
   .tm-site-name-container {
     background-color: rgba(255, 255, 255, 0.5);
@@ -745,7 +757,12 @@ hr {
   #intro,
   #section_4,
   #contact {
-    background-color: #99ccff;
+    background-image: linear-gradient(
+      to right,
+      #555555,
+      #555555 50%,
+      #d9e4dd 50%
+    );
   }
 
   #our_place {
