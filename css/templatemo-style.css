@@ -986,6 +986,7 @@ p {
 
 .textanime h1 {
     width: 325px;
+    margin-left: 5pc;
     color: #f38181;
     font-size: 35px;
     font-family: monospace;
